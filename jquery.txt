@@ -1,0 +1,66 @@
+
+--------------------------- Jueves 22 de Febrero de 2024 ---------------------------
+
+Tema: Jquery
+
+-------------------------------------------------------------
+                            BUCLES
+-------------------------------------------------------------
+
+1- For
+    Sintaxis:
+        for (inicialización; condicion; iteracion){
+            //code
+        }
+
+Es más ordenado en una función para los datos por parámetros en lugar de capturarlos dentro de la función
+
+break -> Termina el bucle en la parte que se le dice
+continue -> Recorre todo, pero corta el recorrido en donde se le dice y luego sigue recorriendo lo demás
+
+
+2- For in
+    Sintaxis:
+        for(i in variable){
+            //code
+        }
+
+3- For of
+    Sintaxis:
+        for(let nombreCorto of variable){
+            //code
+        }
+
+4- forEach
+    Sintaxis
+        array.forEach((valor, llave/index) => {
+            //code
+        })
+    forEach no puede ser interrumpido por break ni por continue
+
+5- while
+    Sintaxis
+        while(condicion) {
+
+        }
+    Entra cada vez que la condición se cumpla
+
+5- do while
+    Sintaxis
+        do {
+
+        } while(condicion);
+    Entra al menos una vez, y luego evalua si se cumple la condición
+
+-------------------------------------------------------------
+                            Extras
+-------------------------------------------------------------
+
+prompt() -> Para pedir datos al usuario
+
+Arrow function: Función anónima
+    $("#btn_enviar).click(() => {
+
+    })
+
+lenght -> Para obtener el tamaño de una array
